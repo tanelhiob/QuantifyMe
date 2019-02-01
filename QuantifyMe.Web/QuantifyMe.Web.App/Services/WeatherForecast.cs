@@ -1,6 +1,6 @@
 using System;
 
-namespace QuantifyMe.Frontend.App.Services
+namespace QuantifyMe.Web.App.Services
 {
     public class WeatherForecast
     {

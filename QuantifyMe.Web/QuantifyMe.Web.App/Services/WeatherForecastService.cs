@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace QuantifyMe.Frontend.App.Services
+namespace QuantifyMe.Web.App.Services
 {
     public class WeatherForecastService
     {

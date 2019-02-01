@@ -9,7 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace QuantifyMe.Frontend.Server
+namespace QuantifyMe.Web.Server
 {
     public class Program
     {

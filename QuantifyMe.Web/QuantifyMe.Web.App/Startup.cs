@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Components.Builder;
 using Microsoft.Extensions.DependencyInjection;
-using QuantifyMe.Frontend.App.Services;
+using QuantifyMe.Web.App.Services;
 
-namespace QuantifyMe.Frontend.App
+namespace QuantifyMe.Web.App
 {
     public class Startup
     {

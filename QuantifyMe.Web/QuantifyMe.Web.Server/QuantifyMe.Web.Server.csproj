@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\QuantifyMe.Frontend.App\QuantifyMe.Frontend.App.csproj" />
+    <ProjectReference Include="..\QuantifyMe.Web.App\QuantifyMe.Web.App.csproj" />
   </ItemGroup>
 
   <ItemGroup>

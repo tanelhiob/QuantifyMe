@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace QuantifyMe.Frontend.Server
+namespace QuantifyMe.Web.Server
 {
     public class Startup
     {
