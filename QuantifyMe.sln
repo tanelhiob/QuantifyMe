@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28527.54
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantifyMe.Web.Server", "QuantifyMe.Web\QuantifyMe.Web.Server\QuantifyMe.Web.Server.csproj", "{895D1E41-BB1D-4D28-ACF2-616768CED086}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuantifyMe.Web.Server", "QuantifyMe.Web\QuantifyMe.Web.Server\QuantifyMe.Web.Server.csproj", "{895D1E41-BB1D-4D28-ACF2-616768CED086}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantifyMe.Web.App", "QuantifyMe.Web\QuantifyMe.Web.App\QuantifyMe.Web.App.csproj", "{965B1226-3FB8-47F1-8C14-467EEBA6A944}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuantifyMe.Web.App", "QuantifyMe.Web\QuantifyMe.Web.App\QuantifyMe.Web.App.csproj", "{965B1226-3FB8-47F1-8C14-467EEBA6A944}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{E904CFE4-3E0D-42AF-8FF3-D8B1229F0729}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{F4351571-5FFD-4436-BC56-1A9030412AAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantifyMe.Core", "QuantifyMe.Core\QuantifyMe.Core.csproj", "{D6F8509A-43EA-4D52-9C53-A97D78BD4F53}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +27,18 @@ Global
 		{965B1226-3FB8-47F1-8C14-467EEBA6A944}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{965B1226-3FB8-47F1-8C14-467EEBA6A944}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{965B1226-3FB8-47F1-8C14-467EEBA6A944}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6F8509A-43EA-4D52-9C53-A97D78BD4F53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6F8509A-43EA-4D52-9C53-A97D78BD4F53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6F8509A-43EA-4D52-9C53-A97D78BD4F53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6F8509A-43EA-4D52-9C53-A97D78BD4F53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{895D1E41-BB1D-4D28-ACF2-616768CED086} = {E904CFE4-3E0D-42AF-8FF3-D8B1229F0729}
+		{965B1226-3FB8-47F1-8C14-467EEBA6A944} = {E904CFE4-3E0D-42AF-8FF3-D8B1229F0729}
+		{D6F8509A-43EA-4D52-9C53-A97D78BD4F53} = {F4351571-5FFD-4436-BC56-1A9030412AAB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DC749996-7A7C-40A6-AA90-D4F7AB433D4A}
